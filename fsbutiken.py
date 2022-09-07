@@ -83,8 +83,8 @@ def login():
     PASSWORD_NAME = "loginModel.Password"
     LOGIN_URL = BASE_URL + "/login"
     payload = {
-        USERNAME_NAME: "38446",
-        PASSWORD_NAME: "habib123",
+        USERNAME_NAME: "",
+        PASSWORD_NAME: "",
         HIDDEN_NAME: HIDDEN_VALUE,
     }
     result = session_requests.get(LOGIN_URL)
